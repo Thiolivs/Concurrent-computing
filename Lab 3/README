@@ -1,0 +1,50 @@
+Ambiente de desenvolvimento:
+A atividade foi feita usando a ferramenta VsCode, no sistema operacional Windows, com as devidas instalações do gcc e MingW
+
+Compilação e execução:
+O programa foi compilado no Windows com:
+----------------------------------------------------------------------------
+gcc NomeDoPrograma.c -o NomeDoPrograma
+----------------------------------------------------------------------------
+
+e executado com:
+----------------------------------------------------------------------------
+NomeDoPrograma <N> <NTHREADS>
+----------------------------------------------------------------------------
+Onde:
+N é a dimensão do vetor;
+NTHREADS é o número de Threads utilizadas;
+
+Medições e Avaliação de Desempenho:
+A aplicação foi executada diversas vezes (pelo menos 5) para 2 e 4 Threads e também
+considerando os tamanhos dos vetores.
+
+Os valores na tabela dizem respeito ao ganho de desempenho estimado considerando a
+média dos tempos calculados
+
+------------------------------------
+
+Tamanho do vetor: 10^5 e 2 Threads
+média de desempenho: 0.795331
+
+Tamanho do vetor: 10^5 e 4 Threads
+média de desempenho: 0.4016634
+
+------------------------------------
+
+Tamanho do vetor: 10^7 e 2 Threads
+média de desempenho: 1.61424
+
+Tamanho do vetor: 10^7 e 4 Threads
+média de desempenho: 1.97436
+
+------------------------------------
+
+Tamanho do vetor: 10^9 e 2 Threads
+média de desempenho: 1.90664
+
+Tamanho do vetor: 10^9 e 4 Threads
+média de desempenho: 1.84037
+
+
+Os valores dos tempos de execução podem ser vistos mais adiantecom mais detalhes no relatório
