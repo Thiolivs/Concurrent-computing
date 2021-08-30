@@ -2,7 +2,7 @@
 
 ## Descrição:
 
-O código aqui apresentado visa calcular a eliminação gaussiana de uma matriz quadrada [n][n] gerada por números aleatórios. O usuário digita a dimensão (n) e a quantidade de threads que vamos utilizar, o programa gera uma matriz, realiza o escalonamento, faz substituição reversa para encontrar os valores do vetor x e MMQ para verificar se Ax - b = 0, ou seja, se está tudo certo com a resposta.
+O código aqui apresentado visa calcular a eliminação gaussiana de uma matriz quadrada [n][n] gerada por números aleatórios. O usuário digita a dimensão [n] e a quantidade de threads que vamos utilizar, o programa gera uma matriz, realiza o escalonamento, faz substituição reversa para encontrar os valores do vetor x e MMQ para verificar se Ax - b = 0, ou seja, se está tudo certo com a resposta.
 
 ##  Avaliação de desempenho:
 
