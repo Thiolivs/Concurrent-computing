@@ -1,0 +1,14 @@
+Universidade Federal do Rio de Janeiro
+Autor: Thiago de Oliveira Silva 	
+Disciplina: Computação concorrente - Laboratório 6 - Introducao a programacao concorrente em Java. 
+
+A atividade foi feita usando a ferramenta VsCode, no sistema operacional Windows.
+
+Sobre o programa:
+Cria um vetor de tamanho baseado em NTHREADS. A principio ela tem tamanho fixo = 4.
+O vetor é preenchido com valores aleatorios.
+As threads contam o numero de elementos pares e armazenam em um contador que é imprimido ao final
+Tambem imprime uma lista com todos os pares para melhor visualizacao.
+
+Nota: Pode-se alterar o numero de threads no codigo e com isso, alteramos o tamanho do vetor. 
+Esta foi a forma de testar utilizando diferentes numeros de threads e tamanho do vetor.
