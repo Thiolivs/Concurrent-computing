@@ -1,0 +1,24 @@
+/*Universidade Federal do Rio de Janeiro*/
+/*Autor: Thiago de Oliveira Silva 	DRE: 111466197*/
+/*Disciplina: Computação concorrente - Laboratório 7
+Implementacao de uma aplicacao que usa o padrao leitores/escritores usando o conceito de monitores */
+
+/*A atividade foi feita usando a ferramenta VsCode, no sistema operacional Windows.*/
+
+Sobre o programa:
+
+A aplicação roda por tempo indeterminado até que o usuário termine.
+
+Algumas threads leem o valor inicial e verificam se é primo, outras reescrevem o valor enquanto
+um terceiro conjunto informa se é par ou impar e duplica seu valor.
+Tudo isso é feito de forma concorrente utilizando uma unica variavel em comum, sem que acessem 
+ela ao mesmo tempo evitanto conflitos.
+
+Foi utilizado uma variavel do tipo vetor de inteiro para aproveitamento do codigo do ultimo laboratorio
+e essa variavel possui tamanho fixo de uma posição, cumprindo o objetivo desejado. 
+o valor contido nesse vetor de uma unica posição é alterado pelas threads ao longo da execução.
+
+Foram realizados teste com diferentes numeros de threads e alguns atrasos no programa foram colocados
+poropositalmente para que se pudesse visualizar o que estava acontecendo.
+
+
