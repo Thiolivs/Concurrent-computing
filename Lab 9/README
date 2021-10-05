@@ -1,0 +1,19 @@
+Universidade Federal do Rio de Janeiro
+Autor: Thiago de Oliveira Silva 	DRE: 111466197
+Disciplina: Computação concorrente - Laboratorio 5 - Exericio com semaforos
+
+A atividade foi feita usando a ferramenta VsCode, no sistema operacional Windows, 
+com as devidas instalações do gcc e MingW
+
+Compilação:  
+gcc NomeDoPrograma.c -o NomeDoPrograma -lpthread
+Execução:
+NomeDoPrograma
+
+Sobre o programa:
+
+Ao compilar o progama, alguns warnings são exibidos, porém os mesmos não afetam a correta execução da aplicação
+Ao executar, o programa solicita o tamanho do bufer, numero de produtores e numero de consumidores
+Inicialmente cria o buffer e preenche com '-'. As threads produtoras o preenchem e somente após isso,
+uma unica thread consumidora o esvazia. A sincronização é feita usando dois semaforos.
+O provesso se repete até que o usuário pare. 
